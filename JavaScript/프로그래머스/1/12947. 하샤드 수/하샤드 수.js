@@ -4,6 +4,6 @@ function solution(x) {
     for (i=0; i<sum.length; i++) {
       num+=Number(sum[i]) 
     }
-    const isHashed = x%num 
-    return isHashed===0 ? true: false;
+    const isHarshad = x%num 
+    return isHarshad===0 ? true: false;
 }
